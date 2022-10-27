@@ -1,0 +1,14 @@
+print(''' Coloque seus dados e descubra se foi aprovado''')
+
+
+nomealuno = input('Coloque seu nome: ')
+quantidadefaltas = int(input("Quantas faltas voce teve: "))
+print('continue'if quantidadefaltas<=3 else'voce reprovou')
+nota1 = input("qual foi sua primeira nota: ")
+nota1= float(nota1)
+nota2 = input("qual foi sua segunda nota: ")
+nota2= float(nota2)
+media = ( (nota1 + nota2) / 2 )
+print(media)
+print('voce passou' if media<=7.5 else'voce reprovou')
+print(nomealuno)
